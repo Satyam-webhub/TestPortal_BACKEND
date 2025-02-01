@@ -1,0 +1,4 @@
+POST http://localhost:3000/sessions                           //create sessionsId
+POST http://localhost:3000/sessions/:sessions/videos?q=1     //upload and convert Quiz 1
+POST http://localhost:3000/sessions/:sessions/audios?q=1    // Extract audio from Quiz 1
+POST http://localhost:3000/sessions/:sessions/end          //  merge all quizes 
